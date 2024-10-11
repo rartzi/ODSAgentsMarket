@@ -1,0 +1,14 @@
+{
+  "name": "crewai-agent-marketplace",
+  "version": "1.0.0",
+  "description": "A marketplace for CrewAI agents",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "uuid": "^8.3.2"
+  }
+}
