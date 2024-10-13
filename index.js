@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 
 let agents = [
-    { id: uuidv4(), name: 'Scientific Paper Critique', creator: '@ResearchPro', executions: 15200, azcoins: 2, tools: ['NLP', 'Academic Database Access'] },
+    { id: uuidv4(), name: 'Scientific Paper Critique', creator: '@BioInfo', executions: 15200, azcoins: 2, tools: ['NLP', 'Academic Database Access'] },
     { id: uuidv4(), name: 'Data Analysis Assistant', creator: '@DataGenius', executions: 22400, azcoins: 3, tools: ['Python', 'R', 'SQL'] },
     { id: uuidv4(), name: 'Literature Review Synthesizer', creator: '@LitExpert', executions: 18300, azcoins: 2, tools: ['Text Mining', 'Summarization'] },
     { id: uuidv4(), name: 'Experiment Design Optimizer', creator: '@InnoGuy', executions: 20100, azcoins: 2, tools: ['Statistical Analysis', 'Experimental Design'] }
